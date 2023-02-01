@@ -17,8 +17,11 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title}>
           <h1>John Naoom</h1>
+          <p>tagline</p>
         </div>
-        <p>add content here</p>    
+        <div className={styles.content}>
+          <p>Content</p>
+        </div>
       </main>
     </>
   );

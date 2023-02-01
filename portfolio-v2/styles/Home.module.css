@@ -3,30 +3,26 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .title {
-  text-align: left-align;
-  margin: auto;
-  max-width: 100%;
+  width:fit-content;
+  text-align: left;
+  float: left;
 }
 
 .title h1 {
   font-size: 4em;
-  margin-bottom: 1rem;
 }
 
 .title p {
   font-size: 1.5em;
 }
 
-@media (max-width: 768px) {
-  .title h1 {
-    font-size: 4em;
-  }
-
-  .title p {
-    font-size: 1.2em;
-  }
+.content {
+  width: 100%;
+  height: 100%;
+  text-align: left;
 }
