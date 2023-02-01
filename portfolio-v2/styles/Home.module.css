@@ -1,0 +1,32 @@
+/* Add styling similar to markdown */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 
+.title {
+  text-align: left;
+  margin: auto;
+  max-width: 80%;
+}
+
+.title h1 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+.title p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 2em;
+  }
+
+  .title p {
+    font-size: 1.2em;
+  }
+} */
