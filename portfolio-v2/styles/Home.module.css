@@ -3,17 +3,17 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:flex-start;
 }
-/* 
+
 .title {
-  text-align: left;
+  text-align: left-align;
   margin: auto;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .title h1 {
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 1rem;
 }
 
@@ -23,10 +23,10 @@
 
 @media (max-width: 768px) {
   .title h1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .title p {
     font-size: 1.2em;
   }
-} */
+}
