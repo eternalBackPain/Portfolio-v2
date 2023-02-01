@@ -25,11 +25,11 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
   margin: 0;
-  display: flex;
+  /* display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  min-height:10%;
-  padding: 10rem;
+  /* min-height:10%;
+  /* padding: 10rem; */
   line-height: 1.5;
 }
 b,
